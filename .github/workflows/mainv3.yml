@@ -39,7 +39,7 @@ jobs:
         uses: Azure/aks-set-context@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          cluster-name: githubaks
+          cluster-name: githubaks2
           resource-group: github-rg
 
       - name: Print Original Content
